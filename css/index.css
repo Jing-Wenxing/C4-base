@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* 引用字体 */
+
+@font-face {
+    font-family: PingFangSC-Medium;
+    src: url("../font/PingFang\ Medium_downcc.otf");
+}
+
+.font-family-PingFangSC {
+    font-family: PingFangSC-Medium;
+}
+
+/* 全局宽度 */
+
+.dev-content-width {
+    width: 1200px;
+}
+
+/* 全局样式 - flex */
+
+.flex {
+    display: flex;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
